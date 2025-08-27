@@ -33,7 +33,10 @@ class ThankyouMail extends Mailable
     {
          return new Envelope(
             subject: 'Thank You',
-            from: new Address('noreply@digitalasset.leveragemillionaireclub.com	', 'Digital Asset'),
+            from: new Address('noreply@digitalasset.leveragemillionaireclub.com', 'Digital Asset'),
+             bcc: [
+                new Address('noreply@digitalasset.leveragemillionaireclub.com'),
+            ],
         );
     }
 

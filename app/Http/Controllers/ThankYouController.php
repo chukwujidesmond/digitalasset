@@ -16,6 +16,7 @@ class ThankYouController extends Controller
 
         Mail::to($request->email)->send(new ThankyouMail($body));
         Session::put('successMessage', 'Account created. Thanks');
-        return redirect()->back();
+       return redirect()->away('https://chat.whatsapp.com/CnRl6vTjpLO2xXr1hdwpCX?mode=ems_copy_c');
+
    }
 }

@@ -21,6 +21,16 @@
     <link rel="stylesheet" href="{{asset('assets/css/default.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/aos.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
+
+    <style>
+        /* Responsive video styling */
+video {
+    width: 100%; /* Make the video take the full width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 520px; /* Optional: Limit the maximum width for larger screens */
+}
+
+    </style>
 </head>
 
 <body>
@@ -53,12 +63,12 @@
                             <h2 class="title wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">It’s time to Build .  <span>Passive</span>  Income & Real Wealth</h2>
                             <p class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">Join Africa’s #1 Millionaire Mentor, Victor Emelotaobi, and discover how to earn from digital asset arbitrage while building your wealth community.</p>
                             
-                            <video width="520" height="440" controls poster="assets/img/images/brand7.jpeg">
+                            <video width="520" height="440" controls poster="assets/img/images/vid_thumbnail.jpeg">
                                 <source src="assets/vid/Leads.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
 
-                            <span class="banner__content-bottom wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">100% FREE for the first 700<a href="#!"> members!</a></span>
+                            <span class="banner__content-bottom wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">100% FREE for the first 700<a href="#join"> members!</a></span>
                         </div>
                     </div>
                 </div>
@@ -78,9 +88,10 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="section__title text-center mb-80">
-                            <span class="sub-title">Join the Digital Asset Club Free Now</span>
+                            <span class="sub-title" ><a href="#join"> Join the Digital Asset Club Free Now</a></span>
                             <h2 class="title">Why Join? </h2>
                         </div>
+                        
                     </div>
                 </div>
                 <div class="row gutter-y-40">
@@ -201,21 +212,19 @@
         </section>
         <!-- work-area-end -->
 
-           <section class="team__area section-py-120">
+           <section class="team__area section-py-120" id="join">
             <div class="container">
                 <div class="row">
                      <form action="{{ route('send.feedback') }}" method="POST"  class="banner__form wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">
                         @csrf
                         <div class="col-lg-6" ></div>
-                        {{-- <label for="email"><img src="assets/img/icon/envelope.svg" alt=""></label>
-                        <input type="email" id="email" placeholder="Business email">
-
-                        <label for="email"><img src="assets/img/icon/envelope.svg" alt=""></label>
-                        <input type="email" id="email" placeholder="Business email"> --}}
-
+                        {{-- <label for="email"><img src="assets/img/icon/envelope.svg" alt=""></label> --}}
+                        <input type="text" id="text" name="fullname" placeholder="Full Name">
+                        <br>
+                
                         <label for="email"><img src="assets/img/icon/envelope.svg" alt=""></label>
                         <input type="email" id="email" name="email" placeholder="email">
-
+<br>
                         <button type="submit" class="tg-btn">get early access</button>
                     </form>
                  
@@ -224,9 +233,11 @@
             <div class="team__shape">
                 <img src="assets/img/images/features_shape.png" alt="shape">
             </div>
-        </section>
 
-  
+
+         
+        
+        </section>
 
     </main>
     <!-- main-area-end -->
@@ -242,6 +253,7 @@
     <script src="{{asset('assets/js/wow.min.js')}}"></script>
     <script src="{{asset('assets/js/aos.js')}}"></script>
     <script src="{{asset('assets/js/main.js')}}"></script>
+ 
 </body>
 
 </html>
