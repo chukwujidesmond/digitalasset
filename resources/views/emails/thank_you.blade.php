@@ -5,7 +5,7 @@
         <p>Welcome to Digital Asset.</p>
         <h4>Kindly Join Our:</h4>
         <ol>
-            <li>COMMUNITY URL: <a href="https://chat.whatsapp.com/CnRl6vTjpLO2xXr1hdwpCX?mode=ems_copy_c" target='_BLANK'>Join Our community</a></li>
+            <li>COMMUNITY URL: <a href="https://chat.whatsapp.com/Irbu89brcnSHYbxuyzCYhM?mode=ems_copy_t" target='_BLANK'>Join Our community</a></li>
             {{-- <li>Email: {{ $user->email }}</li>
             <li>Password: {{ $user->plain_password }}></li> --}}
         </ol>
