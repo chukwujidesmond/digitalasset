@@ -6,8 +6,15 @@
         <h4>Kindly Join Our:</h4>
         <ol>
             <li>COMMUNITY URL: <a href="https://chat.whatsapp.com/CnRl6vTjpLO2xXr1hdwpCX?mode=ems_copy_c" target='_BLANK'>Join Our community</a></li>
-            {{-- <!-- <li>Email: {{ $user->email }}</li>
-            <li>Password: {{ $user->plain_password }}</li> --> --}}
+            {{-- <li>Email: {{ $user->email }}</li>
+            <li>Password: {{ $user->plain_password }}></li> --}}
+        </ol>
+        <h4>Your details:</h4>
+        <ol>
+            <li>Fullname: {{ $body['fullname'] }}</li>
+            <li>Email: {{ $body['email'] }}</li>
+            <li>Phone: {{ $body['phone'] }}</li>
+            <li>Location: {{ $body['location'] }}</li>
         </ol>
         {{-- <!-- <p> Need Assistance ? Kindly  <a href='https://support.codova.ai/'><b>Visit</b></a> to checkout our knowledgebase Articles and Chat with our Support Agents.</p>        --> --}}
         <p>Best Regards,</p>

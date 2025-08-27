@@ -13,6 +13,7 @@ class ThankYouController extends Controller
    public function sendFeedback(Request $request)
    {
         $body = $request->all();
+      //   dd($body);
          if(!$request->email){
             return redirect()->away('https://chat.whatsapp.com/CnRl6vTjpLO2xXr1hdwpCX?mode=ems_copy_c');
          }

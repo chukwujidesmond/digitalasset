@@ -582,8 +582,10 @@ textarea {
 	00. Section Title
 ===============================*/
 .section__title .sub-title {
-  font-weight: 600;
-  font-size: 14px;
+  /* font-weight: 600;
+  font-size: 14px; */
+  font-weight: 900;
+  font-size: 20px; 
   text-transform: uppercase;
   display: inline-block;
   line-height: 1;
