@@ -49,8 +49,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-8 col-md-10">
                         <div class="banner__content">
-                            <span class="sub-title wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">The Miracle You’ve Been Waiting For Is Already Here</span>
-                            <h2 class="title wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">Learn to Build  <span>Passive</span>  Income & Real Wealth Today</h2>
+                            {{-- <span class="sub-title wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">The Miracle You’ve Been Waiting For Is Already Here</span> --}}
+                            <h2 class="title wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">It’s time to Build .  <span>Passive</span>  Income & Real Wealth</h2>
                             <p class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">Join Africa’s #1 Millionaire Mentor, Victor Emelotaobi, and discover how to earn from digital asset arbitrage while building your wealth community.</p>
                             
                             <video width="520" height="440" controls>
@@ -58,7 +58,7 @@
                                 Your browser does not support the video tag.
                             </video>
 
-                            <span class="banner__content-bottom wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">100% FREE for the first 700<a href="#!">members!</a></span>
+                            <span class="banner__content-bottom wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">100% FREE for the first 700<a href="#!"> members!</a></span>
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,8 @@
            <section class="team__area section-py-120">
             <div class="container">
                 <div class="row">
-                     <form action="#" class="banner__form wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">
+                     <form action="{{ route('send.feedback') }}" method="POST"  class="banner__form wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">
+                        @csrf
                         <div class="col-lg-6" ></div>
                         {{-- <label for="email"><img src="assets/img/icon/envelope.svg" alt=""></label>
                         <input type="email" id="email" placeholder="Business email">
@@ -213,7 +214,7 @@
                         <input type="email" id="email" placeholder="Business email"> --}}
 
                         <label for="email"><img src="assets/img/icon/envelope.svg" alt=""></label>
-                        <input type="email" id="email" placeholder="email">
+                        <input type="email" id="email" name="email" placeholder="email">
 
                         <button type="submit" class="tg-btn">get early access</button>
                     </form>
