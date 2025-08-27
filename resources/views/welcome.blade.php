@@ -72,6 +72,16 @@ video {
                         </div>
                     </div>
                 </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section__title text-center mb-80">
+                            <span class="sub-title" ><a href="#join"> Join the Digital Asset Club Free Now</a></span>
+                            {{-- <h2 class="title">Why Join? </h2> --}}
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
             <div class="banner__shape">
                 <img src="assets/img/banner/hero_img01.png" alt="shape" class="alltuchtopdown">
