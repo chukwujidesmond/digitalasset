@@ -5,8 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Webze - ICO & Crypto Landing Page Template</title>
-    <meta name="description" content="Webze -  ICO & Crypto Landing Page Template">
+    <title>Digital Asset - Join Africa’s #1 Millionaire Mentor, Victor Emelotaobie</title>
+    <meta name="description" content="Digital Asset -  Join Africa’s #1 Millionaire Mentor, Victor Emelotaobi">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -53,7 +53,7 @@
                             <h2 class="title wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">It’s time to Build .  <span>Passive</span>  Income & Real Wealth</h2>
                             <p class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">Join Africa’s #1 Millionaire Mentor, Victor Emelotaobi, and discover how to earn from digital asset arbitrage while building your wealth community.</p>
                             
-                            <video width="520" height="440" controls>
+                            <video width="520" height="440" controls poster="assets/img/images/brand7.jpeg">
                                 <source src="assets/vid/Leads.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
